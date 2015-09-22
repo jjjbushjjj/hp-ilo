@@ -179,7 +179,7 @@ class HpServer(Server):
         XML templates must be located in XML directory under working tree
         """
         print "Attempt to manage %s IP: %s" % (self.name, self.ilo_ip)
-        user = User('Administrator','Apa1achee')
+        user = User('Administrator','pass')
 
         params_f = "./XML/" + pattern
         print params_f
